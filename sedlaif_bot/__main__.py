@@ -25,6 +25,7 @@ def start_callback(bot, update):
 def echo_callback(bot, update):
     split = update.message.text.split('/')
     reply = split[1]
+    bot.delete_message(chat_id=update.message.chat_id, message_id=update.message.message_id)
 
     # if message is not a reply, simply echo the text
     if is_reply(update) is False:
