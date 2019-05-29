@@ -1,7 +1,10 @@
 from telegram.ext import Updater, CommandHandler
 from sedlaif_bot.config import Config
+import logging
 
 TOKEN = Config.API_KEY
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                     level=logging.INFO)
 
 updater = Updater(token=TOKEN)
 dispatcher = updater.dispatcher
