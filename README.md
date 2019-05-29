@@ -22,4 +22,12 @@ class Config:
     API_KEY = "your bot api key"  # your api key, as provided by the botfather    
 ```
 
+### Python dependencies
+
+Install the necessary python dependencies by moving to the project root directory and running:
+
+`sudo pip3 install -r requirements.txt`.
+
+This will install all necessary python packages.
+
 Have Fun!
