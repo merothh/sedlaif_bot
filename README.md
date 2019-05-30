@@ -1,5 +1,5 @@
 # sedlaif_bot
-A python-telegram-bot that implements sed like behaviour
+A python-telegram-bot that implements sed like behaviour and random text manipulation
 
 Runs on telegram as [sedlaif_bot](https://t.me/sedlaif_bot).
 
