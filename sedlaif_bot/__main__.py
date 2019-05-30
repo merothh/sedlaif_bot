@@ -14,7 +14,7 @@ dispatcher = updater.dispatcher
 class EchoFilter(BaseFilter):
     def filter(self, message):
         split = message.text.split('/')
-        return split[0] == 'e'
+        return split[0] == 'e' and len(split)==2
 
 class SedFilter(BaseFilter):
     def filter(self, message):
